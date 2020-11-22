@@ -708,11 +708,11 @@ let value = await driver.findElement(By.css('h1')).getTagName();
 It is used to fetch the dimensions and coordinates 
 of the referenced element.
 
-The fetched data body contain the following details:
-* X-axis position from the top-lef corner of the element
-* y-axis position from the top-lef corner of the element
-* Height of the element
-* Width of the element
+The fetched data body contain the following element details:
+* X-axis position from the top-lef corner
+* y-axis position from the top-lef corner
+* Height
+* Width
 
 {{< code-tab >}}
   {{< code-panel language="java" >}}
